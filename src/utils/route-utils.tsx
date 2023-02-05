@@ -3,7 +3,7 @@ import { ElementType } from "react";
 
 interface ReRouteProps {
   component: ElementType;
-  [key: string]: any;
+  needLogin: boolean;
 }
 
 export const PrivateRoute = ({ component: Component, ...rest }: ReRouteProps) => {
