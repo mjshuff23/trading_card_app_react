@@ -10,7 +10,6 @@ const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 
-// @ts-ignore
 const store = configureStore();
 
 root.render(
